@@ -16,9 +16,13 @@ if (N >= 0)
         }
             {
               Console.Write($"{count}.");
-                
+               
             }
     }
+}
+else
+{
+Console.WriteLine("The enterd value is incorrect. Please, try again.");
 }
 //else
 //{
