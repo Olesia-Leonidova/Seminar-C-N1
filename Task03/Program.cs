@@ -20,20 +20,19 @@ if (N >= 0)
             }
     }
 }
-else
-{
-    int count = N;
-    {
-        while (count <= -N - 1)
-        {
-            Console.Write($"{count}, ");
-            count++;
-          
-        }
-            {
-              Console.Write($"{count}.");
-               
-            }      
-        
-    }
-}
+//else
+//{
+//    int count = N;
+//    {
+//       while (count <= -N - 1)
+//        {
+//            Console.Write($"{count}, ");
+//            count++;
+//          
+//        }
+//            {
+//              Console.Write($"{count}.");   
+//            }      
+//        
+//    }
+//}
