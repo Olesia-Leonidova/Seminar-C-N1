@@ -33,3 +33,5 @@ Console.WriteLine(result ? "Yes." : "No.");
 // {
 // return (firstNum == secondNum*secondNum) || (secondNum == firstNum*firstNum);
 // }
+
+
