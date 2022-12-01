@@ -12,11 +12,23 @@
 Console.WriteLine("Write a week-day using a number from 1 to 7, where 1 is Monday and 7 is Sunday to see if it is a day-off:");
 int day = Convert.ToInt32(Console.ReadLine());
 
-if(0 < day & day < 8)
+bool WeekDay(int d)
 {
-if(0 < day & day < 6) Console.WriteLine("No, it is not a day off.");
-else Console.WriteLine("Yes, it is a day-off.");
+
+    if (5 < d & d < 8) return true;
+    return false;
 }
+
+bool result = WeekDay(day);
+if(0 < day & day < 8) Console.WriteLine(result ? "Yes, it is a day-off." : "No, it is not a day off.");
 else Console.WriteLine("Not valid value.");
 
+// Console.WriteLine("Write a week-day using a number from 1 to 7, where 1 is Monday and 7 is Sunday to see if it is a day-off:");
+// int day = Convert.ToInt32(Console.ReadLine());
 
+// if(0 < day & day < 8)
+// {
+// if(0 < day & day < 6) Console.WriteLine("No, it is not a day off.");
+// else Console.WriteLine("Yes, it is a day-off.");
+// }
+// else Console.WriteLine("Not valid value.");
