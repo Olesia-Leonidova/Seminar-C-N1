@@ -13,10 +13,28 @@
 Console.WriteLine("Enter a 3-digit number:");
 int nmbr = Convert.ToInt32(Console.ReadLine());
 
-if (99 < nmbr < 1000)
+int SecondDigit(int a)
 {
-    int digit2 = (nmbr / 10) % 10;
-    Console.WriteLine($"The 2nd digit of entered number is: {digit2} ");
+int secondDigit = (a / 10) % 10;
+return secondDigit;
 }
 
-Console.WriteLine("The entered value is not valid.");
+int result = SecondDigit(nmbr);
+
+if (99 < nmbr & nmbr < 1000)Console.WriteLine($"The 2nd digit of entered number is: {result}.");
+else Console.WriteLine("The entered value is not valid.");
+
+
+
+
+
+// Console.WriteLine("Enter a 3-digit number:");
+// int nmbr = Convert.ToInt32(Console.ReadLine());
+
+// if (99 < nmbr & nmbr < 1000)
+// {
+//     int digit2 = (nmbr / 10) % 10;
+//     Console.WriteLine($"The 2nd digit of entered number is: {digit2} ");
+// }
+
+// else Console.WriteLine("The entered value is not valid.");

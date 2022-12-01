@@ -13,7 +13,7 @@ int ThirdDigit(int num)
 {
     while (num > 999)
           {
-           num =  num / 10;
+           num = num / 10;
           }
            int digit3 = num % 10; 
            return digit3; 
