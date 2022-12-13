@@ -12,13 +12,13 @@ int a = Convert.ToInt32(Console.ReadLine());
 int ThirdDigit(int num)
 {
     while (num > 999)
-          {
-           num = num / 10;
-          }
-           int digit3 = num % 10; 
-           return digit3; 
+    {
+        num = num / 10;
+    }
+    int digit3 = num % 10;
+    return digit3;
 }
- 
+
 
 if (a > 999) Console.WriteLine($"The 3rd digit is {ThirdDigit(a)}");
 else Console.WriteLine("There is no 3rd digit");
